@@ -8,13 +8,14 @@
     tools:context=".view.MainActivity">
 
     <TextView
-        android:textSize="25sp"
+        android:textSize="30sp"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Geofencing" />
 
     <Button
+        android:layout_margin="16dp"
         android:onClick="showFenceHistory"
         android:textSize="22sp"
         android:text="Show Geofences Visited"

@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity implements Observer<List<Geo
         for (int i = 0; i < 10; i++) {
             mGeofenceList.add(new Geofence.Builder()
                     // Set the request ID of the geofence. This is a string to identify this geofence.
-                    .setRequestId(planets[i]).setCircularRegion(lats[i], lngs[i], 2000)
+                    .setRequestId(planets[i]).setCircularRegion(lats[i], lngs[i], 1500)
                     .setExpirationDuration(300000)
                     .setTransitionTypes(Geofence.GEOFENCE_TRANSITION_ENTER |
                             Geofence.GEOFENCE_TRANSITION_EXIT)
